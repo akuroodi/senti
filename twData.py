@@ -22,13 +22,13 @@ def twitter_auth():
     Handles authentication handshaking with the Twitter API
     """
 
-    access_token = "1352473741117145088-9ga2flQ1nSqtWufLQr8GM1BHZwAyOT"
+    access_token = "<removed for security>"
 
-    access_token_secret = "JF3aQai1DEsjWayDuI4ebDiffIDWcLrzqtBKRvZX3Qu5Q"
+    access_token_secret = "<removed for security>"
 
 
-    consumer_key = "QkReevsCWcMXrlcAtB9YQSf5W"
-    consumer_secret = "cf79J99kqFzB3CKsp9dLZq37rHSSuUZB9kaj7FLAWOXGLVif27"
+    consumer_key = "<removed for security>"
+    consumer_secret = "<removed for security>"
 
 
     auth =  tw.OAuthHandler(consumer_key, consumer_secret)
